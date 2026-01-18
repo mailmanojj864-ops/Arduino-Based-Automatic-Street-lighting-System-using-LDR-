@@ -50,7 +50,7 @@ void loop()
 {
   ldrValue = analogRead(ldrPin);
 
-  if (ldrValue < 100)
+  if (ldrValue < 500)
   {
     digitalWrite(ledPin, HIGH);  // LED ON in darkness
   }
